@@ -16,8 +16,8 @@ JSON example:
     "description": "A secure bridge for fiat and crypto",
     "fees": "from 2.9%",
     "region": "US & Europe",
-    "logo-url":"https://www.sendwyre.com/favicon.ico",
-    "site-url": "https://pay.sendwyre.com/purchase"
+    "logoUrl":"https://www.sendwyre.com/favicon.ico",
+    "siteUrl": "https://pay.sendwyre.com/purchase"
 }
 ```
 
@@ -27,5 +27,5 @@ JSON example:
 |`description`|string|A short line of text describing the on-ramp service|
 |`fees`|string|The rate or rates that users are charged for the currency exchange service|
 |`region`|string|The geo-political jurisdiction that the service operates in|
-|`logo-url`|string|A url to the on-ramp service's logo|
-|`site-url`|string|A url to redirect a user to the on-ramp service's exchange service|
+|`logoUrl`|string|A url to the on-ramp service's logo|
+|`siteUrl`|string|A url to redirect a user to the on-ramp service's exchange service|
