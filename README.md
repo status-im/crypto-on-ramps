@@ -17,7 +17,8 @@ JSON example:
     "fees": "from 2.9%",
     "region": "US & Europe",
     "logoUrl":"https://www.sendwyre.com/favicon.ico",
-    "siteUrl": "https://pay.sendwyre.com/purchase"
+    "siteUrl": "https://pay.sendwyre.com/purchase",
+    "hostname": "sendwyre.com"
 }
 ```
 
@@ -29,3 +30,4 @@ JSON example:
 |`region`|string|The geo-political jurisdiction that the service operates in|
 |`logoUrl`|string|A url to the on-ramp service's logo|
 |`siteUrl`|string|A url to redirect a user to the on-ramp service's exchange service|
+|`hostname`|string|The hostname of the `siteUrl` consisting of the domain name and tld|
